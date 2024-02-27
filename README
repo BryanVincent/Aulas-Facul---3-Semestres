@@ -1,0 +1,26 @@
+URL Apostila Desenvolvimento com JavaScript: https://drive.google.com/file/d/1uPdEbzPXUTRKqW1y8Gy27Ure2j1xWiCh/view
+
+URL Apostila para baixar O NODE JS e suas questões: https://drive.google.com/file/d/1uPdEbzPXUTRKqW1y8Gy27Ure2j1xWiCh/view
+
+##########    NVM   ##########
+Instalar e baixar NVM: https://github.com/coreybutler/nvm-windows
+ver a versão do nvm: nvm --version ou nvm -v ou nvm --v
+
+##########    NODE   ##########
+DOCS node: https://www.npmjs.com/
+Instalar e baixar node: https://nodejs.org/en/
+Baixado o NVM, assim baixa o node JS: nvm isntall 20.9.0
+Abra o terminal e teste mandando: node
+E Depois coloque: console.log("Teste")
+ver a versão do node: npm --version ou npm -v ou npm --v
+
+##########    CONWSAY   ##########
+DOCS Cowsay: https://www.npmjs.com/package/cowsay
+baixar o cowsay: npm install -g cowsay
+Executar com pacotes cowsay: npx cowsay muuu
+com node: node cowsay muuu
+Desinstalar Cowsay: npm uninstall -g cowsay
+O seus pacotes: npm uninstall cowsay
+
+
+

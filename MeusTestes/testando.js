@@ -28,10 +28,40 @@ console.log("Resultado da DIVISÃO é >>> " + Resultado_4)
   })
 })
 
+// #############       OUTRA FORMA DE FAZER        #############
+
+// const readline = require('readline');
+
+// const rl = readline.createInterface({
+//   input: process.stdin,
+//   output: process.stdout
+// });
+
+// rl.question('Digite um número: ', (numUm) => {
+//   rl.question('Digite outro número: ', (numDois) => {
+//     // Convertendo as entradas do usuário para números
+//     var numUmNumero = parseFloat(numUm);
+//     var numDoisNumero = parseFloat(numDois);
+
+//     // Realizando as operações matemáticas
+//     var resultadoSoma = numUmNumero + numDoisNumero;
+//     var resultadoSubtracao = numUmNumero - numDoisNumero;
+//     var resultadoMultiplicacao = numUmNumero * numDoisNumero;
+//     var resultadoDivisao = numUmNumero / numDoisNumero;
+
+//     // Exibindo os resultados
+//     console.log("Resultado da SOMA é >>> " + resultadoSoma);
+//     console.log("Resultado da SUBTRAÇÃO é >>> " + resultadoSubtracao);
+//     console.log("Resultado da MULTIPLICAÇÃO é >>> " + resultadoMultiplicacao);
+//     console.log("Resultado da DIVISÃO é >>> " + resultadoDivisao);
+    
+//     // Fechando a interface readline
+//     rl.close();
+//   });
+// });
 
 
-
-
+// #############       OUTRA FORMA MAIS COMPLEXA        #############
 
 // const readline = require('readline');
 

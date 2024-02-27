@@ -1,12 +1,14 @@
-/*
+/* DIA 26/02/2024
+
 var linguagem = "Javascript";
 console.log("Aprendendo, " + linguagem);
 //nome pode ser redeclarada
 var linguagem = "Java";
 console.log("Aprendendo, " + linguagem);
 
+//                      //                      //                      //                      //
 
-escopo não restrito a bloco
+//escopo não restrito a bloco
 var idade = 18;
  //exibe undefined. Ou seja, a variável já existe aqui, só não teve valor atribuído.
 
@@ -28,6 +30,7 @@ console.log(n3);
 const n4 = n1 + Number (n2)
 console.log(n4)
 
+//                      //                      //                      //                      //
 
 //declaração
 v1 = [];
@@ -45,7 +48,7 @@ for (let i = 0; i < v2.length; i++){
     console.log(v2[i])
 }
 
-
+//                      //                      //                      //                      //
 
 const nomes = ["Ana Maria", "Antonio", "Rodrigo", "Alex", "Cristina"];
 
@@ -63,7 +66,7 @@ const valores = [1, 2, 3, 4];
 const soma = valores.reduce((ac, v) => ac + v);
 console.log(soma);
 
-
+//                      //                      //                      //                      //
 
 function hello (){
     console.log ('Oi')
@@ -81,8 +84,7 @@ function soma (a, b) {
 const res = soma (2, 3)
     console.log (res)
 
-
-
+//                      //                      //                      //                      //
 
 const dobro = function (n) {
     return n * 2;
@@ -96,7 +98,7 @@ const triplo = function (n = 5) {
 console.log(triplo());
 console.log(triplo(10));
 
-
+//                      //                      //                      //                      //
 
 const hello = () => console.log("Hello");
 hello();
@@ -108,6 +110,7 @@ const triplo = (valor) => {
     return valor * 3;
 };
 console.log(triplo(10));
+
 //e agora?
 // const ehPar = (n) => {
 //     n % 2 === 0;
@@ -118,15 +121,15 @@ const ehPar = (n) => {
 };
 console.log(ehPar(10));
 
+//                      //                      //                      //                      //
 
-
-//uma função pode ser atribuída a uma variável
-// let umaFuncao = function () {
-//     console.log ("Fui armazenada em uma variável");
-// }
-//e pode ser chamada assim
-// umaFuncao()
-//f recebe uma função como parâmetro e, por isso é uma função de alta ordem. Por devolver uma função, g também é de alta ordem.
+// uma função pode ser atribuída a uma variável
+let umaFuncao = function () {
+    console.log ("Fui armazenada em uma variável");
+}
+// e pode ser chamada assim
+umaFuncao()
+// f recebe uma função como parâmetro e, por isso é uma função de alta ordem. Por devolver uma função, g também é de alta ordem.
 
 function f (funcao) {
 //chamando a função
@@ -143,23 +146,19 @@ function g () {
 f (function (){
     console.log ('Estou sendo passada para f')
 })
-//e g pode ser chamada assim
-// const gResult = g()
-// gResult()
-//e assim também
-// g()()
-//outros testes
+// e g pode ser chamada assim
+const gResult = g()
+gResult()
+// e assim também
+g()()
+// outros testes
 // f chama g, que somente devolve uma função. Nada é exibido.
-// f(g)
+f(g)
 // f chama a função devolvida por g. "Fui criada por g" é exibido.
-// f(g())
+f(g())
 // f tenta chamar o que a função criada por g devolve. Ela não devolve coisa alguma. Por isso, um erro - somente em tempo de execução - acontece.
-// f(g()())
-//O que acontece?
+f(g()())
+// O que acontece?
 f(1)
 
 */
-
-
-
-
