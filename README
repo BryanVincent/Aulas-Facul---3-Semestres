@@ -22,5 +22,9 @@ com node: node cowsay muuu
 Desinstalar Cowsay: npm uninstall -g cowsay
 O seus pacotes: npm uninstall cowsay
 
+##########    JSON   ##########
 
+closure >>> fechamento, não traz somente a função, mas sim todas as variáveis que fazem parte dessa função
+
+Abriu chaves "{}" >>> Objeto JSON
 

@@ -10,16 +10,16 @@ console.log("Aprendendo, " + linguagem);
 
 //escopo não restrito a bloco
 var idade = 18;
- //exibe undefined. Ou seja, a variável já existe aqui, só não teve valor atribuído.
+//exibe undefined. Ou seja, a variável já existe aqui, só não teve valor atribuído.
 
- //Ela é içada - do inglês hoist - para fora do bloco if
- console.log(`Oi, ${nome}`)
- if (idade >= 18) {
+//Ela é içada - do inglês hoist - para fora do bloco if
+console.log(`Oi, ${nome}`)
+if (idade >= 18) {
     var nome = "João";
     console.log(`Parabéns, ${nome}. Você pode dirigir`);
- }
- //ainda existe aqui
- console.log(`Até mais, ${nome}.`);
+}
+//ainda existe aqui
+console.log(`Até mais, ${nome}.`);
 
 const n1 = 2;
 const n2 = '3';
@@ -121,6 +121,8 @@ const ehPar = (n) => {
 };
 console.log(ehPar(10));
 
+*/
+
 //                      //                      //                      //                      //
 
 // uma função pode ser atribuída a uma variável
@@ -157,8 +159,7 @@ f(g)
 // f chama a função devolvida por g. "Fui criada por g" é exibido.
 f(g())
 // f tenta chamar o que a função criada por g devolve. Ela não devolve coisa alguma. Por isso, um erro - somente em tempo de execução - acontece.
-f(g()())
+// f(g()())
 // O que acontece?
 f(1)
 
-*/
