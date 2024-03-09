@@ -1,6 +1,6 @@
 URL Apostila Desenvolvimento com JavaScript: https://drive.google.com/file/d/1uPdEbzPXUTRKqW1y8Gy27Ure2j1xWiCh/view
 
-URL Apostila para baixar O NODE JS e suas questões: https://drive.google.com/file/d/1uPdEbzPXUTRKqW1y8Gy27Ure2j1xWiCh/view
+URL Apostila para baixar O NODE JS e suas questões: https://drive.google.com/file/d/1kUkQBign6F0vKSSQ9c_GIday1A_DR3yZ/view
 
 ##########    NVM   ##########
 Instalar e baixar NVM: https://github.com/coreybutler/nvm-windows
@@ -27,4 +27,27 @@ O seus pacotes: npm uninstall cowsay
 closure >>> fechamento, não traz somente a função, mas sim todas as variáveis que fazem parte dessa função
 
 Abriu chaves "{}" >>> Objeto JSON
+
+##########    USO DO  let e do const   ##########
+
+let >>> Use let quando precisar de uma variável que possa ser reatribuída.
+const >>> Use const quando quiser uma variável com um valor que não mude após a inicialização.
+
+##########    REACT   ##########
+
+Documentação >>> https://pt-br.legacy.reactjs.org/docs/getting-started.html
+
+Minha Documentação no Notion >>> https://www.notion.so/Aula-02-Mobile-React-Bossini-27-02-c4d8ecdae05742dc857acfcae3184157?pvs=4
+
+deverá ter instalado o NVM e o NODE.
+
+Inicio de um projeto com REACT
+
+npx >>> Executa uma tarefa
+
+npx  create-react-app >>> Executar o react
+
+npx creat-react-app primeiro-projeto >>> Criando um projeto e executa o react dentro do novo projeto
+
+npm start >>> Serve para startar o projeto (rodar)
 
