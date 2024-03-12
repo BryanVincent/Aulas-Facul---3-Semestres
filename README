@@ -51,3 +51,49 @@ npx creat-react-app primeiro-projeto >>> Criando um projeto e executa o react de
 
 npm start >>> Serve para startar o projeto (rodar)
 
+
+##########    READFILE   ##########
+
+READFILE >>>    Ler arquivo
+
+A leitura do arquivo, realizada pela função readFile
+pode executar em uma thread separada.
+
+
+##########    CALLBACK   ##########
+
+Há um fenômeno conhecido como callback hell
+ou inferno de callbacks que consiste no aninhamento de funções callback.
+
+Ex: função setTimeout e a função exibirConteudo.
+
+##########    PROMISES   ##########
+
+Promises >>> um mecanismo pró-
+prio para a manipulação de código assíncrono que visa simplicar as características inerentes ao uso de callbacks.
+
+Uma Promise é um objeto por meio do qual uma função pode propa-
+gar um resultado ou um erro em algum momento no futuro.
+
+* Pending: Quando uma promise é produzida e o processamento associado a ela ainda
+não está concluído, ela está no estado Pending.
+
+* FullFilled: Quando o processamento associado a uma promise termina com sucesso, ela
+passa para o estado Fulllled.
+
+* Rejected: Quano o processamento associado a uma promise termina com erro, ela passa
+para o estado Rejected.
+
+- Nos estados Fulllled e Rejected (Estados finais) nunca transitam para outro estado.
+
+* O tratamento
+de resultados sempre se dá na função THEN,
+O tratamento de erros sempre se dá
+na função catch.
+
+
+- Função "resolve" >>> promise passou de
+Pending para Fulllled.
+
+
+
