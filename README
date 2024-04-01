@@ -1,4 +1,8 @@
-URL Apostila Desenvolvimento com JavaScript: https://drive.google.com/file/d/1uPdEbzPXUTRKqW1y8Gy27Ure2j1xWiCh/view
+Repositório do Bossini >>> github.com/pr
+
+URL todas as Apostilas >>> https://bit.ly/USJT_2a
+
+URL Apostila 1 Desenvolvimento com JavaScript: https://drive.google.com/file/d/1uPdEbzPXUTRKqW1y8Gy27Ure2j1xWiCh/view
 
 URL Apostila para baixar O NODE JS e suas questões: https://drive.google.com/file/d/1kUkQBign6F0vKSSQ9c_GIday1A_DR3yZ/view
 
@@ -95,5 +99,17 @@ na função catch.
 - Função "resolve" >>> promise passou de
 Pending para Fulllled.
 
+* Promise pode ser usada para consumir uma API de serviços.
 
+##########    OPEN WEATHER MAP   ##########
 
+Site para pegar API's >>> https://home.openweathermap.org/
+
+1. API Key
+2. Instalar Axios (npm install)
+3. Conferir URL gerada
+4. Ctrl + Click
+
+O async >>> Cria uma Promise sozinha
+
+10 de junho curso de AWS
