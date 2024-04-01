@@ -1,0 +1,33 @@
+.profissional{
+    border: 1px solid rgb(192, 153 ,243);
+    background-color: rgb(228, 221, 238);
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.profissional img {
+    height: 150px;
+    border-radius: 8px;
+}
+
+.medica {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+.dentista {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+.cientista {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
