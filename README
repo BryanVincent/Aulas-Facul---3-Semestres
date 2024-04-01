@@ -1,6 +1,10 @@
-URL Apostila Desenvolvimento com JavaScript: https://drive.google.com/file/d/1uPdEbzPXUTRKqW1y8Gy27Ure2j1xWiCh/view
+Repositório do Bossini >>> github.com/pr
 
-URL Apostila para baixar O NODE JS e suas questões: https://drive.google.com/file/d/1uPdEbzPXUTRKqW1y8Gy27Ure2j1xWiCh/view
+URL todas as Apostilas >>> https://bit.ly/USJT_2a
+
+URL Apostila 1 Desenvolvimento com JavaScript: https://drive.google.com/file/d/1uPdEbzPXUTRKqW1y8Gy27Ure2j1xWiCh/view
+
+URL Apostila para baixar O NODE JS e suas questões: https://drive.google.com/file/d/1kUkQBign6F0vKSSQ9c_GIday1A_DR3yZ/view
 
 ##########    NVM   ##########
 Instalar e baixar NVM: https://github.com/coreybutler/nvm-windows
@@ -22,5 +26,90 @@ com node: node cowsay muuu
 Desinstalar Cowsay: npm uninstall -g cowsay
 O seus pacotes: npm uninstall cowsay
 
+##########    JSON   ##########
+
+closure >>> fechamento, não traz somente a função, mas sim todas as variáveis que fazem parte dessa função
+
+Abriu chaves "{}" >>> Objeto JSON
+
+##########    USO DO  let e do const   ##########
+
+let >>> Use let quando precisar de uma variável que possa ser reatribuída.
+const >>> Use const quando quiser uma variável com um valor que não mude após a inicialização.
+
+##########    REACT   ##########
+
+Documentação >>> https://pt-br.legacy.reactjs.org/docs/getting-started.html
+
+Minha Documentação no Notion >>> https://www.notion.so/Aula-02-Mobile-React-Bossini-27-02-c4d8ecdae05742dc857acfcae3184157?pvs=4
+
+deverá ter instalado o NVM e o NODE.
+
+Inicio de um projeto com REACT
+
+npx >>> Executa uma tarefa
+
+npx  create-react-app >>> Executar o react
+
+npx creat-react-app primeiro-projeto >>> Criando um projeto e executa o react dentro do novo projeto
+
+npm start >>> Serve para startar o projeto (rodar)
 
 
+##########    READFILE   ##########
+
+READFILE >>>    Ler arquivo
+
+A leitura do arquivo, realizada pela função readFile
+pode executar em uma thread separada.
+
+
+##########    CALLBACK   ##########
+
+Há um fenômeno conhecido como callback hell
+ou inferno de callbacks que consiste no aninhamento de funções callback.
+
+Ex: função setTimeout e a função exibirConteudo.
+
+##########    PROMISES   ##########
+
+Promises >>> um mecanismo pró-
+prio para a manipulação de código assíncrono que visa simplicar as características inerentes ao uso de callbacks.
+
+Uma Promise é um objeto por meio do qual uma função pode propa-
+gar um resultado ou um erro em algum momento no futuro.
+
+* Pending: Quando uma promise é produzida e o processamento associado a ela ainda
+não está concluído, ela está no estado Pending.
+
+* FullFilled: Quando o processamento associado a uma promise termina com sucesso, ela
+passa para o estado Fulllled.
+
+* Rejected: Quano o processamento associado a uma promise termina com erro, ela passa
+para o estado Rejected.
+
+- Nos estados Fulllled e Rejected (Estados finais) nunca transitam para outro estado.
+
+* O tratamento
+de resultados sempre se dá na função THEN,
+O tratamento de erros sempre se dá
+na função catch.
+
+
+- Função "resolve" >>> promise passou de
+Pending para Fulllled.
+
+* Promise pode ser usada para consumir uma API de serviços.
+
+##########    OPEN WEATHER MAP   ##########
+
+Site para pegar API's >>> https://home.openweathermap.org/
+
+1. API Key
+2. Instalar Axios (npm install)
+3. Conferir URL gerada
+4. Ctrl + Click
+
+O async >>> Cria uma Promise sozinha
+
+10 de junho curso de AWS
